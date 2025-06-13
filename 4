@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Survey Form</title>
+</head>
+<body>
+
+  <h2>Favorite Food Survey</h2>
+
+  <form>
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Favorite Food -->
+    <label for="food">Favorite Food:</label><br>
+    <select id="food" name="food">
+      <option value="Pizza">Pizza</option>
+      <option value="Chinese">Chinese</option>
+      <option value="Indian">Indian</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="cook" name="cook">
+    <label for="cook">Do you like to cook?</label><br><br>
+
+    <!-- Comments -->
+    <label for="comments">Additional Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
