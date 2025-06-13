@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animated Color Circle</title>
+  <style>
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      animation: colorChange 15s linear infinite;
+    }
+
+    @keyframes colorChange {
+      0%   { background-color: red; }
+      25%  { background-color: yellow; }
+      50%  { background-color: blue; }
+      75%  { background-color: green; }
+      100% { background-color: red; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle"></div>
+
+</body>
+</html>
